@@ -9,7 +9,7 @@ const PORT = 5000;
 // Middlewares
 app.use(cors({
   origin: [
-    'https://contact-form2713.netlify.app',
+    'https://contact-form2713.netlify.app/',
     'http://localhost:3000'
   ],
   methods: ['GET', 'POST'],
