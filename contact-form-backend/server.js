@@ -12,7 +12,7 @@ app.use(cors({
     'https://contact-form2713.netlify.app/',
     'http://localhost:3000'
   ],
-  methods: ['GET', 'POST'],
+  methods: ['POST'],
   credentials: true
 }));
 app.use(bodyParser.json());
