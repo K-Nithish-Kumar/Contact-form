@@ -21,7 +21,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://contact-form-backend-1327.onrender.com/send", formData);
+      const res = await axios.post("https://contact-form-backend-2713.onrender.com/send", formData);
        setStatus(res.data.message);
     } catch (err) {
        setStatus("Failed to send message!");
