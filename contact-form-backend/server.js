@@ -8,8 +8,7 @@ const PORT = 5000;
 
 // Middlewares
 app.use(cors({
-  origin: [
-    'https://contact-form-2713.netlify.app/',
+  origin: [,
     'http://localhost:3000'
   ],
   methods: ['Get','POST'],
@@ -30,7 +29,7 @@ app.post("/send", async (req, res) => {
     service: "gmail",
      auth: {
      user: "nithish81812@gmail.com",
-     pass: "oqhd bhuc ejhv uraq",
+     pass: "kqen iiuf cpxa tfcq",
   },
   tls: {
     rejectUnauthorized: false, 
