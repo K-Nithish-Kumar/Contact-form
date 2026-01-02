@@ -29,7 +29,7 @@ app.post("/send", async (req, res) => {
     service: "gmail",
      auth: {
      user: "nithish81812@gmail.com",
-     pass: "kqen iiuf cpxa tfcq",
+     pass: "Your App Pass",
   },
   tls: {
     rejectUnauthorized: false, 
